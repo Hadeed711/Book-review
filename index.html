@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BK Book Reviews</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+PhagsPa&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+PhagsPa&family=Playwrite+CO+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+PhagsPa&family=Playwrite+CO+Guides&family=Playwrite+DE+VA+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="assets/logo.jpg" alt="BK Book Reviews Logo" />
+    <h1>BK Book Review System</h1>
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search books by name..." />
+      <button id="searchButton">Search</button>
+      <button class="toggle-dark-mode">Toggle Dark Mode</button>
+    </div>
+  </header>
+  <main>
+    <section class="book-grid">
+      <div class="book-card" data-name="It Ends With Us,it,ends,with,us">
+        <div class="book-image">
+          <img src="/assets/ends_with_img.jpg" alt="It Ends With Us" />
+        </div>
+        <div class="book-info">
+          <h3>It Ends With Us</h3>
+          <p class="hide-disp">It Ends With Us" is a romance novel by Colleen Hoover, first published in 2016. The story
+            follows Lily
+            Bloom, a young woman who moves to Boston to start her own floral business. She becomes involved with Ryle
+            Kincaid, a neurosurgeon with a commitment-averse attitude, while grappling with memories of her first love,
+            Atlas Corrigan. As Lily's relationship with Ryle deepens, she confronts painful truths about her past and
+            present, particularly concerning domestic abuse, leading her to make difficult decisions to break the cycle
+            of violence.</p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/Ends-Us-Novel-Colleen-Hoover/dp/1501110365" target="_blank">Buy Online</a>
+        </div>
+
+      </div>
+      <div class="book-card" data-name="The Seven Husbands of Evelyn Hugo,Seven, Husbands ,Evelyn ,Hugo">
+        <div class="book-image">
+          <img src="/assets/seven_hus_img.jpg" alt="The Seven Husbands of Evelyn Hugo" />
+        </div>
+        <div class="book-info">
+          <h3>The Seven Husbands of Evelyn Hugo</h3>
+          <p class="hide-disp">The Seven Husbands of Evelyn Hugo" is a historical fiction novel by Taylor Jenkins Reid,
+            published in 2017.
+            The story centers on reclusive Hollywood icon Evelyn Hugo, who, at age 79, chooses unknown journalist
+            Monique Grant to write her biography. As Evelyn recounts her rise to fame and her seven marriages, she
+            reveals deep secrets and a forbidden love that defined her life. Through their collaboration, Monique
+            uncovers unexpected connections between her own life and Evelyn's tumultuous journey.
+            It was nominated for a Goodreads Choice Award for Best Historical Fiction in 2017.</p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/Seven-Husbands-Evelyn-Hugo-Novel/dp/1501161938" target="_blank">Buy Online</a>
+
+        </div>
+
+      </div>
+      <div class="book-card" data-name="Verity">
+        <div class="book-image">
+          <img src="/assets/verity_img.jpg" alt="Verity" />
+        </div>
+        <div class="book-info">
+          <h3>Verity</h3>
+          <p class="hide-disp">Verity" is a psychological thriller novel by Colleen Hoover, first published in 2018. The
+            story follows
+            Lowen Ashleigh, a struggling writer who is hired to complete the unfinished works of bestselling author
+            Verity Crawford after Verity's debilitating accident. As Lowen delves into Verity's notes, she discovers a
+            hidden autobiography that reveals dark and disturbing secrets about Verity's life, including her
+            relationships and the tragic deaths of her children. The novel explores themes of deceit, obsession, and the
+            blurred lines between fiction and reality, leading readers through a series of shocking twists and moral
+            dilemmas.</p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/s?k=verity&crid=Y6IVSZKKDJDM&sprefix=verit%2Caps%2C374&ref=nb_sb_noss_2"
+            target="_blank">Buy Online</a>
+
+        </div>
+      </div>
+      <div class="book-card" data-name="Ugly Love,Ugly, Love">
+        <div class="book-image">
+          <img src="/assets/ugly_love_img.jpg" alt="Ugly Love" />
+        </div>
+        <div class="book-info">
+          <h3>Ugly Love</h3>
+          <p class="hide-disp">Ugly Love" is a contemporary romance novel by Colleen Hoover, first published in 2014.
+            The story follows
+            Tate Collins, a nursing student, who moves in with her brother and meets Miles Archer, an airline pilot with
+            a troubled past. They enter into a complex, no-strings-attached arrangement, guided by two rules: never ask
+            about the past and don't expect a future. As their physical relationship deepens, Tate finds herself
+            struggling with her growing feelings for Miles, who remains emotionally closed off due to past traumas. The
+            novel explores themes of love, heartbreak, and the challenges of overcoming personal demons to embrace a
+            hopeful future.</p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/Ugly-Love-Colleen-Hoover/dp/1476753180" target="_blank">Buy Online</a>
+
+        </div>
+
+      </div>
+      <div class="book-card" data-name="November 9,November, 9">
+        <div class="book-image">
+          <img src="/assets/novem_img.jpg" alt="November 9" />
+        </div>
+        <div class="book-info">
+          <h3>November 9</h3>
+          <p class="hide-disp">November 9" is a contemporary romance novel by Colleen Hoover, first published in 2015.
+            The story follows
+            Fallon, a young woman scarred both physically and emotionally from a fire, who meets Ben, an aspiring
+            novelist, the day before her planned cross-country move. Their immediate connection leads them to spend
+            Fallon's last day in Los Angeles together, and they agree to meet on the same date—November 9th—every year,
+            without any other contact in between. As years pass, their annual meetings become increasingly significant,
+            intertwining their lives in unexpected ways and challenging their understanding of love and fate.</p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/s?k=november+9&crid=2P0WZ0XYL58NH&sprefix=november+%2Caps%2C424&ref=nb_sb_noss_2"
+            target="_blank">Buy Online</a>
+
+        </div>
+
+      </div>
+      <div class="book-card" data-name="The Love Hypothesis,Love, Hypothesis">
+        <div class="book-image">
+          <img src="/assets/love_hypothesys_img.jpg" alt="The Love Hypothesis" />
+        </div>
+        <div class="book-info">
+          <h3>The Love Hypothesis</h3>
+          <p class="hide-disp">The Love Hypothesis" is a contemporary romance novel by Ali Hazelwood, published in 2021.
+            The story follows
+            Olive Smith, a third-year Ph.D. candidate, who impulsively kisses Dr. Adam Carlsen, a young professor with a
+            reputation for being unapproachable, to convince her best friend that she's moved on from a past
+            relationship. Surprisingly, Adam agrees to continue the charade, and they enter into a fake dating
+            arrangement. As their pretend relationship unfolds, Olive and Adam navigate the complexities of academia,
+            personal insecurities, and unexpected feelings, leading them to question the boundaries between pretense and
+            reality.</p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/s?k=the+love+hypothesys" target="_blank">Buy Online</a>
+
+        </div>
+
+      </div>
+      <div class="book-card" data-name="Where the Crawdads Sing,Where ,Crawdads, Sing">
+        <div class="book-image">
+          <img src="/assets/where_sings_img.jpg" alt="Where the Crawdads Sing" />
+        </div>
+        <div class="book-info">
+          <h3>Where the Crawdads Sing</h3>
+          <p class="hide-disp">Where the Crawdads Sing" is a 2018 novel by Delia Owens that intertwines a coming-of-age
+            story with a
+            murder mystery. Set in the marshes of North Carolina, it follows Kya Clark, known as the "Marsh Girl," who
+            grows up isolated after being abandoned by her family. As she matures, Kya becomes a suspect in the
+            mysterious death of local celebrity Chase Andrews. The narrative explores themes of loneliness, resilience,
+            and the human connection to nature.</p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/s?k=Where+the+Crawdads+Sing&crid=1ZVBPUWARWORN&sprefix=where+the+crawdads+sing%2Caps%2C559&ref=nb_sb_noss_1"
+            target="_blank">Buy Online</a>
+
+        </div>
+
+      </div>
+      <div class="book-card" data-name="The Silent Patient,Silent, Patient">
+        <div class="book-image">
+          <img src="/assets/the_silent_img.jpg" alt="The Silent Patient" />
+        </div>
+        <div class="book-info">
+          <h3>The Silent Patient</h3>
+          <p class="hide-disp">The Silent Patient" is a psychological thriller novel by Alex Michaelides, published in
+            2019. The story
+            centers on Alicia Berenson, a renowned painter who becomes mute after being accused of murdering her
+            husband, Gabriel. Confined to a psychiatric facility, Alicia's silence intrigues criminal psychotherapist
+            Theo Faber, who becomes determined to unravel the mystery behind her actions and restore her voice. As Theo
+            delves deeper into Alicia's past, he uncovers unexpected revelations that blur the lines between patient and
+            therapist, leading to a shocking conclusion.</p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/s?k=The+Silent+Patient&crid=1G4YTJV1HXQY8&sprefix=where+the+crawdads+sing%2Caps%2C296&ref=nb_sb_noss_1"
+            target="_blank">Buy Online</a>
+
+        </div>
+
+      </div>
+      <div class="book-card" data-name="A Court of Thorns and Roses,Court, Thorns, Roses">
+        <div class="book-image">
+          <img src="/assets/a_court_img.jpg" alt="A Court of Thorns and Roses" />
+        </div>
+        <div class="book-info">
+          <h3>A Court of Thorns and Roses</h3>
+          <p class="hide-disp">A Court of Thorns and Roses" is a fantasy novel by Sarah J. Maas, first published in
+            2015. The story
+            follows Feyre Archeron, a young huntress who kills a wolf in the woods, only to discover it was a faerie in
+            disguise. As retribution, she is taken to the magical land of Prythian, where she becomes entangled in the
+            politics and intrigues of the faerie courts. The novel blends elements of romance, adventure, and faerie
+            lore, drawing inspiration from the "Beauty and the Beast" fairy tale.</p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/s?k=A+Court+of+Thorns+and+Roses&crid=I1DS0KS6GZV3&sprefix=the+silent+patient%2Caps%2C296&ref=nb_sb_noss_1"
+            target="_blank">Buy Online</a>
+
+        </div>
+
+      </div>
+      <div class="book-card" data-name="Atomic Habits,Atomic, Habits">
+        <div class="book-image">
+          <img src="/assets/atomic_img.jpg" alt="Atomic Habits" />
+        </div>
+        <div class="book-info">
+          <h3>Atomic Habits</h3>
+          <p class="hide-disp">Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones" is a self-help
+            book by James
+            Clear, first published in 2018. The book delves into the science of habit formation, emphasizing how tiny
+            changes can lead to remarkable results over time. Clear introduces the Four Laws of Behavior Change—Make it
+            Obvious, Make it Attractive, Make it Easy, and Make it Satisfying—as a framework for developing good habits
+            and eliminating bad ones. Through practical strategies and real-life examples, the book illustrates how
+            consistent, incremental improvements can compound to produce significant personal and professional growth.
+          </p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/s?k=Atomic+Habits&crid=2MQCBT4S1WQ2J&sprefix=atomic+habits%2Caps%2C326&ref=nb_sb_noss_1"
+            target="_blank">Buy Online</a>
+
+        </div>
+
+      </div>
+      <div class="book-card" data-name="The Song of Achilles,Song ,Achilles">
+        <div class="book-image">
+          <img src="/assets/songs_img.jpg" alt="The Song of Achilles" />
+        </div>
+        <div class="book-info">
+          <h3>The Song of Achilles</h3>
+          <p class="hide-disp">
+            The Song of Achilles" is a 2011 novel by Madeline Miller that reimagines the story of Achilles and the
+            Trojan War through the eyes of Patroclus, his closest companion. The narrative explores their deepening
+            bond, from friendship to a profound romantic relationship, set against the backdrop of ancient Greek
+            mythology and the looming conflict of the Trojan War. Miller's lyrical prose and fresh perspective on a
+            classic tale have garnered widespread acclaim.
+          </p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/s?k=The+Song+of+Achilles&crid=1NQW7JPDIIX39&sprefix=atomic+habits%2Caps%2C323&ref=nb_sb_noss_1"
+            target="_blank">Buy Online</a>
+
+        </div>
+
+      </div>
+      <div class="book-card" data-name="The Midnight Library,Midnight, Library">
+        <div class="book-image">
+          <img src="/assets/midnight_library.jpg" alt="The Midnight Library" />
+        </div>
+        <div class="book-info">
+          <h3>The Midnight Library</h3>
+          <p class="hide-disp">
+            The Midnight Library" is a novel by Matt Haig that explores the choices that make up a life well-lived. The
+            story follows Nora Seed, a woman who, after a series of personal failures, finds herself in a mystical
+            library between life and death. Each book in the library offers her a chance to live a different version of
+            her life, exploring the various paths she could have taken. Through these journeys, Nora gains profound
+            insights into regret, hope, and the power of choice.
+          </p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/s?k=The+Midnight+Library&crid=LW623Y4N5ERL&sprefix=the+midnight+library%2Caps%2C326&ref=nb_sb_noss_1"
+            target="_blank">Buy Online</a>
+
+        </div>
+
+      </div>
+      <div class="book-card" data-name="Pachinko">
+        <div class="book-image">
+          <img src="/assets/pachinko_img.jpg" alt="Pachinko" />
+        </div>
+        <div class="book-info">
+          <h3>Pachinko</h3>
+          <p class="hide-disp">Pachinko" is a novel by Min Jin Lee, published in 2017. The story spans four generations
+            of a Korean family
+            living in Japan, beginning in the early 20th century. It follows the family's struggles with identity,
+            discrimination, and survival in a foreign land, highlighting themes of resilience and the pursuit of
+            belonging. The novel has been praised for its rich storytelling and historical depth.</p>
+        </div>
+        <div class="book-action">
+          <button class="details-btn">Book Details</button>
+          <a href="https://www.amazon.com/s?k=Pachinko&crid=2A7ZTRKGHB9Z1&sprefix=pachinko%2Caps%2C612&ref=nb_sb_noss_1"
+            target="_blank">Buy Online</a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- popup content -->
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span id="close-popup" class="close-popup">&times;</span>
+        <div id="popup-details">Loading...</div>
+      </div>
+    </div>
+    <!-- Only for no results -->
+    <div class="no-results" style="display: none;">
+      <p>Results not found</p>
+      <img src="assets/result_not.png" alt="No Results Image" class="no-results-img" />
+    </div>
+
+  </main>
+  <script src="script.js"></script>
+ 
+</body>
+
+</html>
